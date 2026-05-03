@@ -30,7 +30,7 @@ class CatDogDataModule(LightningDataModule):
         class_names=None,
         batch_size=8,
         image_size=(224, 224),
-        data_url="https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip"
+        data_url="https://download.mlcc.google.com/mledu-datasets/cats_and_dogs_filtered.zip"
     ):
         """CatDogDataModule.
 
